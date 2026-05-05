@@ -20,8 +20,8 @@ module.exports.run = async function({ api, event, Users }) {
             `🤖 I'm ${bold(global.config.BOTNAME || "Mirai Bot")}!\n` +
             `⌨️ Prefix: ${bold(global.config.PREFIX)}\n` +
             `📖 Type ${global.config.PREFIX}help to see all commands!\n\n` +
-            `👑 ${bold('Admin:')} Manuelson Yasis\n` +
-            `🔗 fb.com/manuelson.yasis`,
+            `👑 ${bold('Admin:')} Jason Valles\n` +
+            `🔗 fb.com/jason.qtii`,
             threadID
         );
     } else {
