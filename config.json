@@ -17,20 +17,20 @@
     "autoApprove": true,
     "commandDisabled": [],
     "eventDisabled": [],
-    "EMAIL": "",
-    "PASSWORD": "",
+    "EMAIL": "mysteriousq112@gmail.com",
+    "PASSWORD": "@mysteriousq_11",
     "OTPKEY": "",
-    "FACEBOOK_ADMIN": "https://www.facebook.com/manuelson.yasis",
-    "BOTNAME": "Mirai-V3",
-    "PREFIX": "!",
-    "BOXADMIN": "61588479630286",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/jason.qtii",
+    "BOTNAME": "🐰✨𝘙𝘪𝘳𝘪 𝘉𝘰𝘵✨🐰",
+    "PREFIX": "/",
+    "BOXADMIN": "100074240805149",
     "ADMINBOT": [
-        "61588479630286",
-        "61576920532388"
+        "100074240805149",
+        "100010520198147"
     ],
     "NDH": [
         "502275138",
-        "61588479630286"
+        "100074240805149"
     ],
     "version": "3.0.0",
     "menu": {
