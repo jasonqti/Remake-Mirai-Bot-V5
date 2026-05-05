@@ -1,1 +1,128 @@
-👉PASTE MO APPSTATE MO👈
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261588687238681%22%3A%22mTnnjDCa%22%2C%2261589063342016%22%3A%22rAAqphPe%22%2C%22100074240805149%22%3A%22Auo33o62%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.071Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "datr",
+        "value": "-qP1aZ-wZflE75FLs8rLEumx",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "sb",
+        "value": "-qP1afsDuROGWxGYuXG8U_QB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_US",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "pas",
+        "value": "61588687238681%3AEyoThJkinD%2C61589063342016%3AJgsKMaFEhr%2C100074240805149%3AkL01OIah9O",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "dpr",
+        "value": "1.8695321083068848",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B662x360x1.7004296779632568",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "m_pixel_ratio",
+        "value": "1.7004296779632568",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "wd",
+        "value": "360x806",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61589063342016",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "xs",
+        "value": "28%3A9GB8XwG52CL1Sw%3A2%3A1778023896%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "fr",
+        "value": "1BeepfT5JN8rbeB9S.AWcVybIUZeCzP_TwYiItl_J0DqXxwvPRaqEliyrRezH4SltQ9xc.Bp-n2R..AAA.0.0.Bp-n3r.AWcBeqHFFWuuVdiLNMbibm5GtB8",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100638682%3BT%3A29633731",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A3157%3Btimestamp%3A1778023915",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-05-05T23:32:22.072Z",
+        "lastAccessed": "2026-05-05T23:32:22.072Z"
+    }
+]
