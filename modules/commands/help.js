@@ -89,13 +89,13 @@ module.exports.run = async function({ api, event, args }) {
         buildCmdCategory(array, cmds);
         array.sort(sortByLength("nameModule"));
         for (const cmd of array) {
-            msg += `│\n│ 📂 ${bold(cmd.cmdCategory.toUpperCase())}\n├──────────⭔\n│ 📊 Total: ${cmd.nameModule.length} commands\n│ ${cmd.nameModule.join(", ")}\n├──────────⭔\n`;
+            msg += `│\n│ 🌐 ${bold(cmd.cmdCategory.toUpperCase())}\n├──────────⭔\n│ 📊 Total: ${cmd.nameModule.length} commands\n│ ${cmd.nameModule.join(", ")}\n├──────────⭔\n`;
         }
         const footer = `\n📊 ${bold('Total:')} ${cmds.size} commands\n` +
             `🤖 ${bold('Bot:')} ${NameBot} v${version}\n` +
             `👨‍💻 ${bold('Admin:')} Jason Valles\n` +
             `🔗 ${bold('FB:')} facebook.com/jason.qtii\n` +
-            `\n💡 ${prefix}help [command] → details\n💡 ${prefix}help all → full list`;
+            `\n🌐 ${prefix}help [command] → details\n🌐 ${prefix}help all → full list`;
 
         return api.sendMessage({
             body: `╔══════════════════╗\n║  🤖 ${bold('MIRAI-V3 BOT')}  ║\n╚══════════════════╝\n\n╭──────────────⭓\n${msg}${footer}\n╰──────────────⭓`,
