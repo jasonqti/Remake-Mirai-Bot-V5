@@ -78,7 +78,7 @@ module.exports.run = async function({ api, event, args }) {
               `╚═══════════════════╝\n\n` +
               `📌 ${bold('Name:')} ${cmd.name}\n` +
               `👤 ${bold('Author:')} ${cmd.credits}\n` +
-              `🌾 ${bold('Version:')} ${cmd.version}\n` +
+              `⚙️ ${bold('Version:')} ${cmd.version}\n` +
               `🔐 ${bold('Permission:')} ${getPermText(cmd.hasPermssion)}\n` +
               `📝 ${bold('Description:')} ${cmd.description}\n` +
               `🏷️ ${bold('Category:')} ${cmd.commandCategory}\n` +
@@ -93,8 +93,8 @@ module.exports.run = async function({ api, event, args }) {
         }
         const footer = `\n📊 ${bold('Total:')} ${cmds.size} commands\n` +
             `🤖 ${bold('Bot:')} ${NameBot} v${version}\n` +
-            `👑 ${bold('Admin:')} Manuelson Yasis\n` +
-            `🔗 ${bold('FB:')} facebook.com/manuelson.yasis\n` +
+            `👨‍💻 ${bold('Admin:')} Jason Valles\n` +
+            `🔗 ${bold('FB:')} facebook.com/jason.qtii\n` +
             `\n💡 ${prefix}help [command] → details\n💡 ${prefix}help all → full list`;
 
         return api.sendMessage({
