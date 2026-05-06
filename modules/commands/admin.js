@@ -21,8 +21,8 @@ module.exports.run = async function({ api, event, args }) {
     switch (args[0]) {
         case "list": {
             if (admins.length === 0) return api.sendMessage(`📋 ${bold('No bot admins found.')}`, threadID, messageID);
-            let msg = `╔══════════════════╗\n║  👑 ${bold('BOT ADMINS')}    ║\n╚══════════════════╝\n\n`;
-            admins.forEach((id, i) => { msg += `${i + 1}. 🆔 ${id}\n`; });
+            let msg = `╔══════════════════╗\n║  👨‍💻 ${bold('BOT ADMINS')}    ║\n╚══════════════════╝\n\n`;
+            admins.forEach((id, i) => { msg += `${i + 1}. 🪪 ${id}\n`; });
             return api.sendMessage(msg, threadID, messageID);
         }
         case "add": {
