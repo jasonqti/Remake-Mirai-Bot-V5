@@ -23,9 +23,9 @@ module.exports.handleEvent = async function ({ api, event }) {
     if (["prefix","what is the prefix","forgot prefix","how to use"].includes(lowerBody)) {
         api.sendMessage(
             `╔══════════════════╗\n║  ⌨️ ${bold('PREFIX INFO')}    ║\n╚══════════════════╝\n\n` +
-            `📌 ${bold('Group Prefix:')} ${prefix}\n` +
+            `🌐 ${bold('Group Prefix:')} ${prefix}\n` +
             `⚙️ ${bold('System Prefix:')} ${PREFIX}\n\n` +
-            `💡 Example: ${prefix}help`,
+            `📝 Example: ${prefix}help`,
             threadID, event.messageID
         );
     }
