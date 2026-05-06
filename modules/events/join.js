@@ -16,11 +16,11 @@ module.exports.run = async function({ api, event, Users }) {
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
         api.changeNickname(`[ ${global.config.PREFIX} ] • ${global.config.BOTNAME || "Mirai Bot"}`, threadID, api.getCurrentUserID());
         return api.sendMessage(
-            `👋 ${bold('Hello Everyone!')}\n\n` +
-            `🤖 I'm ${bold(global.config.BOTNAME || "Mirai Bot")}!\n` +
-            `⌨️ Prefix: ${bold(global.config.PREFIX)}\n` +
+            `🙋🏻‍♂️ ${bold('Hello Everyone!')}\n\n` +
+            `🤖 I'm ${bold(global.config.BOTNAME || "🐰✨𝘙𝘪𝘳𝘪 𝘉𝘰𝘵✨🐰")}!\n` +
+            `🌐 Prefix: ${bold(global.config.PREFIX)}\n` +
             `📖 Type ${global.config.PREFIX}help to see all commands!\n\n` +
-            `👑 ${bold('Admin:')} Jason Valles\n` +
+            `👨‍💻 ${bold('Admin:')} Jason Valles\n` +
             `🔗 fb.com/jason.qtii`,
             threadID
         );
@@ -49,7 +49,7 @@ module.exports.run = async function({ api, event, Users }) {
             memLength.sort((a, b) => a - b);
 
             var msg = threadData.customJoin ||
-                `👋 Welcome {name}!\n\n🎉 Welcome to ${bold('{threadName}')}\n🔢 You are member #{memberCount}\n\n📖 Type ${global.config.PREFIX}help for commands!`;
+                `🙋🏻‍♂️ Welcome {name}!\n\n🎉 Welcome to ${bold('{groupName}')}\n🔢 Gladly you've been here. You are member #{memberCount}\n\n📖 Type ${global.config.PREFIX}help for commands!`;
 
             msg = msg
                 .replace(/\{name}/g, nameArray.join(', '))
