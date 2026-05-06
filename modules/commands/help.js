@@ -98,7 +98,7 @@ module.exports.run = async function({ api, event, args }) {
             `\n🌐 ${prefix}help [command] → details\n🌐 ${prefix}help all → full list`;
 
         return api.sendMessage({
-            body: `╔══════════════════╗\n║  🤖 ${bold('MIRAI-V3 BOT')}  ║\n╚══════════════════╝\n\n╭──────────────⭓\n${msg}${footer}\n╰──────────────⭓`,
+            body: `╔══════════════════╗\n║  🤖 ${bold('RIRI-V5 BOT')}  ║\n╚══════════════════╝\n\n╭──────────────⭓\n${msg}${footer}\n╰──────────────⭓`,
             attachment: bannerAttachment ? [bannerAttachment] : undefined
         }, tid);
     }
