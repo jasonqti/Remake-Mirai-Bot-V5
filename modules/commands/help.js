@@ -32,7 +32,7 @@ module.exports.run = async function({ api, event, args }) {
     const version = global.config.version;
     var prefix = TIDdata.PREFIX || global.config.PREFIX;
 
-    const ibbUrl = "https://ibb.co/4gZpB7tw";
+    const ibbUrl = "https://ibb.co/32xdDvp";
     let bannerAttachment = null;
     try {
         const directUrl = await getIbbDirectUrl(ibbUrl);
